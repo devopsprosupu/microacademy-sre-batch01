@@ -1,0 +1,21 @@
+#!/bin/bash
+
+echo "This is a simple math program"
+
+echo "we are going to perform arthematic operations"
+
+echo "Enter 1st value for add,sub,mul,div e.g. x=a"
+
+read Y
+
+sum = $(X + Y)
+sub = $(X - Y)
+mul = $(X * Y)
+div = $(X / y)
+
+echo "The result for add,sub,mul,div is"
+
+echo "$sum"
+echo "$sub"
+echo "$mul"
+echo "$div"
