@@ -1,0 +1,9 @@
+!/bin/bash
+
+echo "This is a simple program"
+
+echo "we are going to perform a program and schedule it for evry 1 min"
+
+for (( i=0; i++));
+do 'acd_cli sync' $i ;
+done
