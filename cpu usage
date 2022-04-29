@@ -1,0 +1,21 @@
+#!/bin/bash
+
+echo "This is a simple math program"
+
+echo "we have to use htop command"
+
+$top
+
+$sudo apt update
+
+$sudo apt install htop
+
+$htop
+
+$sudo apt install sysstat
+
+$mpstat
+
+$sar 4
+
+$sar 3 4
